@@ -6,19 +6,61 @@ font-family: display;
  padding: 2rem;}
 h1,h4 {
     color: var(red);
-
-   "opacity": (
-  property: opacity,
-  values: (
-    0: 0,
-    25: .25,
-    50: .5,
-    75: .75,
-    100: 1,
-  )
-), 
+section {
+    background: rgb(203, 174, 233);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+}
+ 
 
 }
+
+
+
+section {
+    background: rgb(184,156,213);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+
+element.style {
+    padding-bottom: 80px;
+}
+section {
+    background: rgb(159, 108, 214);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    ~~display: block;~~
+    unicode-bidi: isolate;
+}
+
+section {
+    background: rgb(184, 156, 213);
+}
+
+
+section {
+    background: rgb(184, 156, 213);
+}
+
+section {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+
+
+
+
 
 /*.player{width: 300px;}
 #playlist li {cursor: pointer;padding: 5px;}
