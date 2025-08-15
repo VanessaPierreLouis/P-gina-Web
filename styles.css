@@ -1,68 +1,51 @@
 body {
 background: #f5deeb;
+     color: rgb(245, 238, 238);
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+}
 
-font-family: display;
- flex:justify-content; 
- padding: 2rem;}
-h1,h4 {
-    color: var(red);
-section {
-    background: rgb(203, 174, 233);
+header {
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(11, 35, 66);
+    text-align: center;
+}
+
+.parte1 {
+    background: rgb(149, 115, 185);
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
+    justify-content: center;}
+
+.texto {
+    margin-right: 10%;}
+h1 {
+    font-size: 40px;
+    color: rgb(19, 38, 209);
+    margin-top: 4px;
 }
- 
 
+p {
+    font-size: 20px;
+    margin:2px;
 }
 
+h3{
+    color: rgb(11, 83, 83);
+}
 
-
-section {
-    background: rgb(184,156,213);
-    padding-bottom: 80px;
-    padding-top: 80px;
+.categoria-musicas {
     display: flex;
-    justify-content: center;
+    overflow-x: auto;
+    gap: 10px;
 }
 
-
-element.style {
-    padding-bottom: 80px;
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
 }
-section {
-    background: rgb(159, 108, 214);
-    padding-bottom: 80px;
-    padding-top: 80px;
-    display: flex;
-    justify-content: center;
+.img{
+margin: 2px;
 }
-
-section {
-    ~~display: block;~~
-    unicode-bidi: isolate;
-}
-
-section {
-    background: rgb(184, 156, 213);
-}
-
-
-section {
-    background: rgb(184, 156, 213);
-}
-
-section {
-    display: block;
-    unicode-bidi: isolate;
-}
-
-
-
-
-
-
-/*.player{width: 300px;}
-#playlist li {cursor: pointer;padding: 5px;}
-#playlist li:hover {background-color: #f0f0f0;}
-}*/
