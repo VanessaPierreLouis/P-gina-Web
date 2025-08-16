@@ -17,13 +17,15 @@ header {
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
-    justify-content: center;}
+    justify-content: center;
+    border-radius: 10px;
+}
 
 .texto {
     margin-right: 10%;}
 h1 {
     font-size: 40px;
-    color: rgb(19, 38, 209);
+    color: rgb(178, 16, 184);
     margin-top: 4px;
 }
 
@@ -31,9 +33,11 @@ p {
     font-size: 20px;
     margin:2px;
 }
-
+h2{
+    color: rgb(70, 50, 184);
+}
 h3{
-    color: rgb(11, 83, 83);
+    color: rgb(93, 74, 197);
 }
 
 .categoria-musicas {
@@ -48,4 +52,20 @@ h3{
 }
 .img{
 margin: 2px;
+}
+
+.card {
+  width: 250px;
+  max-height:930px ;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card img {
+  object-fit: cover;
+  margin: 0 auto 10px;
+  border: 2px solid rgb(151, 146, 146);
 }
