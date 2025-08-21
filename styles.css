@@ -44,11 +44,13 @@ h3{
     display: flex;
     overflow-x: auto;
     gap: 10px;
+    flex-wrap: wrap;
 }
 
 .categoria {
     padding-left: 20px;
     padding-right: 20px;
+
 }
 .img{
 margin: 2px;
@@ -56,14 +58,17 @@ margin: 2px;
 
 .card {
   width: 250px;
+  height:100%;
   border: 2px solid #ccc;
   border-radius: 8px;
   padding: 8px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;  
 }
+
 .card img {
+width:100%;
   object-fit: cover;
   margin: 0 auto 10px;
   border: 2px solid rgb(151, 146, 146);
